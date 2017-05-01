@@ -13,7 +13,7 @@ beforeDo(
 
 beforeDo(
   "let anxiety destroy your life",
-  "boredom OR meditation OR time travel", timeTravel)
+  "boredom OR meditation OR time travel")
 
 beforeDo.instruction(
   "time travel",
