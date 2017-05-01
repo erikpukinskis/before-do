@@ -1,25 +1,13 @@
 {
-  "name": "narrative",
-  "version": "0.13.0",
-  "description": "Programming for more people",
-  "main": "narrative.js",
+  "name": "before-do",
+  "version": "0.0.0",
+  "description": "Important things happen before certain events",
+  "main": "before-do.js",
   "dependencies": {
-    "module-library": "*",
-    "web-host": "*",
-    "web-element": "*",
-    "basic-styles": "*"
-  },
-  "devDependencies": {
-    "run-test": "*",
-    "web-site": "*",
-    "browser-bridge": "*",
-    "identifiable": "*"
-  },
-  "scripts": {
-    "test": "node test.js"
+    "module-library": "*"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/erikpukinskis/narrative.git"
+    "url": "https://github.com/erikpukinskis/before-do.git"
   }
 }
