@@ -2,6 +2,9 @@ var beforeDo = require(".")
 
 // everyone submit a patch to this repository with a file called your-name.js
 
+beforeDo(
+  "feeling stressed and working into the night",
+  "stop working for the day")
 
 beforeDo(
   "Any of these things at an odd time, or for a second time in one day", [
