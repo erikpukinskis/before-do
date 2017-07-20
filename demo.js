@@ -1,9 +1,16 @@
+var beforeDo = require(".")
+
+// everyone submit a patch to this repository with a file called your-name.js
 
 
-Normal parameters: [cup of coffee in the morning, spliff during the day, meal in the evening, mega vr sesh         ]
-
-
-
+beforeDo(
+  "Any of these things at an odd time, or for a second time in one day", [
+  "cup of coffee in the morning",
+  "spliff during the day",
+  "meal in the evening",
+  "mega vr sesh"],
+  "Is it going to solve your problem?"
+)
 
 beforeDo("The end of the month", "Find someone doing research and help them run their study $$")
 
@@ -32,7 +39,7 @@ beforeDo(
   function(element, host) {
 
     var signOnCodementor = element(".lil-page", [
-      element("p", "Sign on to CodeMentor")
+      element("p", "Sign on to CodeMentor"),
       element("a.button", "I did it", {href: "/mentoring"}),
       " ",
       element(".button", "Not now"),
@@ -85,32 +92,28 @@ beforeDo("feeling mentally lousy", "more dancing")
 
 
 
-food - food syndicate
+beforeDo(
+  "going grocery shopping",
+  "form a food syndicate"
+)
 
-running - sometimes afternoon reminder. also think about when this is a nice thing
+// running - sometimes afternoon reminder. also think about when this is a nice thing
 
-work progress know how much - morning ritual
+// water
 
-water
+// walking in the morning
 
-walking in the morning
+// rollerblading
 
-rollerblading
+// (all this stuff needs to be a wellness syndicate)
 
-At 5pm you can relax
+// Pepper is saying: "I want somebody"
 
-(all this stuff needs to be a wellness syndicate)
+// I want somebody
 
+// I want somebody
 
-
-Pepper is saying: "I want somebody"
-
-I want somebody
-
-I want somebody
-
-Every time you hear something, it's because it's something you are trying to hear.
-// everyone submit a patch to this repository with a file called your-name.js
+// Every thing you hear, it's because that's something you've been trying to hear.
 
 beforeDo(
   "the day is over",
@@ -152,4 +155,6 @@ beforeDo(
   "eating out",
   "imagine what would be the perfect thing to cook right now")
 
-// Found this somewhere: I'm not saying "don't leave." I get that we all need time to go through things. I guess all I'm asking is that if you feel like you need help, just come out and ask for it. Literally say "I need your help. I need you to..." I'm also asking you to please be careful in asking for space and time; there are ways you can do it that don't hurt the person you're asking. Something like "I am struggling with some things right now and could use a little down time. Can we check back in...?"... those things are easier to hear than some of the things you have said in the recent past. Don't wait until it's the darkest point to ask for time or for help. Try and ask a little earlier. 
+beforeDo(
+  "disappearing from everyone",
+  "I'm not saying \"don't leave.\" I get that we all need time to go through things. I guess all I'm asking is that if you feel like you need help, just come out and ask for it. Literally say \"I need your help. I need you to...\" I'm also asking you to please be careful in asking for space and time; there are ways you can do it that don't hurt the person you're asking. Something like \"I am struggling with some things right now and could use a little down time. Can we check back in...?\"... those things are easier to hear than some of the things you have said in the recent past. Don't wait until it's the darkest point to ask for time or for help. Try and ask a little earlier.")
